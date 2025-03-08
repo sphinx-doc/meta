@@ -32,19 +32,6 @@ questions:
       - "I maintain a Sphinx theme"
       - "I contribute to Sphinx"
 
-  - title: "Which of the following roles is closest to your job?"
-    other: true
-    choices:
-      - "Academic researcher"
-      - "Data scientist"
-      - "Developer / Programmer"
-      - "ML engineer / MLOps"
-      - "Product manager"
-      - "QA engineer"
-      - "Technical support"
-      - "Technical writer"
-      - "Prefer not to answer"
-
   - title: "Do you most often work on a team or independently?"
     other: true
     choices:
@@ -103,6 +90,11 @@ questions:
       - "Mkdocs"
       - "JupyterBook"
       - "Sphinx"
+      - "Hugo"
+      - "Astro"
+      - "Pelican"
+      - "Nikola"
+      - "Eleventy"
       - "None"
       - "I don’t know"
 
@@ -113,7 +105,14 @@ questions:
       - "GitHub Pages"
       - "Netlify"
       - "Read The Docs"
+      - "Vercel" 
+      - "Cloudflare Pages"
+      - "DigitalOcean"
+      - "Hetzner" 
+      - "Render"
+      - "Vultr"
       - "My institution has its own deployment"
+      - "I don't know"
 
   - title: "What markup language are you using in your documentation?"
     multiple: true
@@ -178,9 +177,9 @@ questions:
   - title: "What is the main reason you use Sphinx?"
     other: true
     choices:
-      - "Python API documentation generation (docstrings)"
-      - "Narrative documentation"
-      - "Educational materials"
+      - "API documentation generation from docstrings"
+      - "Being able to reference to other pages/sections across one or multiple sites"
+      - "Add functionality through extensions"
       - "Other projects in my ecosystem were using Sphinx"
       - "Someone on my team knew how to use Sphinx"
       - "I joined a project that was already using Sphinx"
@@ -188,6 +187,7 @@ questions:
       - "Sphinx’s performance"
       - "Sphinx’s stability"
       - "Sphinx’s release schedule"
+  
 
   - title: "Does your project use custom Sphinx extensions?"
     choices:
@@ -205,6 +205,8 @@ questions:
       - "Read The Docs"
       - "Pydata Sphinx Theme"
       - "Material design"
+      - "Furo"
+      - "Python Docs Sphinx Theme"
       - "Something else/I don’t know"
 
   - title: "In which formats do you publish your documentation with sphinx?"
@@ -214,20 +216,6 @@ questions:
       - "HTML"
       - "PDF"
       - "EPUB"
-
-  - title: "How comfortable do you feel when working with docutils?"
-    choices:
-      - "Very comfortable"
-      - "Comfortable"
-      - "Neutral"
-      - "Uncomfortable"
-      - "Very uncomfortable"
-      - "I don't know or don't work with docutils"
-
-  - title:
-      "What is the biggest challenge you face when searching for documentation
-      on Sphinx internals?"
-    type: long_text
 
   - title:
       "Please rank the issues you face when working with Sphinx from 1 (most
