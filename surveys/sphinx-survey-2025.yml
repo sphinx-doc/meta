@@ -177,8 +177,8 @@ questions:
   - title: "What is the main reason you use Sphinx?"
     other: true
     choices:
-      - "API documentation generation from docstrings"
-      - "Being able to reference to other pages/sections across one or multiple sites"
+      - "API documentation generation from Python docstrings"
+      - "Being able to cross-reference other pages/sections across one or multiple sites ('intersphinx')"
       - "Add functionality through extensions"
       - "Other projects in my ecosystem were using Sphinx"
       - "Someone on my team knew how to use Sphinx"
@@ -207,6 +207,11 @@ questions:
       - "Material design"
       - "Furo"
       - "Python Docs Sphinx Theme"
+      - "Sphinx Book Theme"
+      - "Shibuya"
+      - "Sphinx Immaterial"
+      - "Sphinx Awesome Theme"
+      - "Sphinx Bootstrap Theme"
       - "Something else/I don’t know"
 
   - title: "In which formats do you publish your documentation with sphinx?"
