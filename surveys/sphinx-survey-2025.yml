@@ -72,29 +72,29 @@ questions:
     multiple: true
     other: true
     choices:
+      - "Community manager"
       - "Designer"
       - "Developer"
       - "Data scientist"
       - "Educator"
-      - "Technical writer"
-      - "Community manager"
-      - "Testing engineer"
       - "Extension developer/maintainer"
+      - "Technical writer"
+      - "Testing engineer"
 
   - title: "What documentation engines do you use?"
     multiple: true
     other: true
     choices:
-      - "MyST"
-      - "Docusaurus"
-      - "Mkdocs"
-      - "JupyterBook"
-      - "Sphinx"
-      - "Hugo"
       - "Astro"
-      - "Pelican"
-      - "Nikola"
+      - "Docusaurus"
       - "Eleventy"
+      - "Hugo"
+      - "JupyterBook"
+      - "Mkdocs"
+      - "MyST"
+      - "Nikola"
+      - "Pelican"
+      - "Sphinx"
       - "None"
       - "I don’t know"
 
@@ -102,34 +102,40 @@ questions:
     multiple: true
     other: true
     choices:
-      - "GitHub Pages"
-      - "Netlify"
-      - "Read The Docs"
-      - "Vercel" 
       - "Cloudflare Pages"
       - "DigitalOcean"
+      - "GitHub Pages"
       - "Hetzner" 
+      - "Netlify"
+      - "Read The Docs"
       - "Render"
+      - "Vercel" 
       - "Vultr"
-      - "My institution has its own deployment"
+      - "We have our own deployment"
       - "I don't know"
 
   - title: "What markup language are you using in your documentation?"
     multiple: true
     other: true
     choices:
-      - "Markdown"
+      - "AsciiDoc"
+      - "Confluence/Jira"
+      - "Markdown - CommonMark"
+      - "Markdown - GitHub Flavored Markdown"
+      - "Markdown - MyST"
       - "reStructuredText"
+      - "TeX"
+      - "XML/DITA"
       - "I don’t know"
 
   - title: "What markup language are you using in your docstrings?"
     multiple: true
     other: true
     choices:
-      - "Markdown"
-      - "reStructuredText"
-      - "Numpydoc format"
       - "Google format"
+      - "Markdown"
+      - "Numpydoc format"
+      - "reStructuredText"
       - "I don’t know"
 
   - title:
@@ -138,9 +144,9 @@ questions:
     other: true
     choices:
       - "Ease of use"
+      - "Frequent updates"
       - "Performance"
       - "Stability"
-      - "Frequent updates"
       - "Variety of features"
 
   - title: "Why did you choose the engine you use for your documentation?"
@@ -148,9 +154,9 @@ questions:
     other: true
     choices:
       - "Ease of use"
+      - "Frequent updates"
       - "Performance"
       - "Stability"
-      - "Frequent updates"
       - "Variety of features"
       - "Other projects in my ecosystem were using it"
       - "It was chosen by others on the project"
@@ -202,25 +208,30 @@ questions:
     choices:
       - "Whatever comes with Sphinx by default"
       - "Alabaster"
-      - "Read The Docs"
-      - "Pydata Sphinx Theme"
-      - "Material design"
       - "Furo"
+      - "Material design"
+      - "Pydata Sphinx Theme"
       - "Python Docs Sphinx Theme"
-      - "Sphinx Book Theme"
+      - "Read The Docs"
       - "Shibuya"
-      - "Sphinx Immaterial"
       - "Sphinx Awesome Theme"
+      - "Sphinx Book Theme"
       - "Sphinx Bootstrap Theme"
+      - "Sphinx Immaterial"
       - "Something else/I don’t know"
 
   - title: "In which formats do you publish your documentation with sphinx?"
     multiple: true
     other: true
     choices:
-      - "HTML"
-      - "PDF"
       - "EPUB"
+      - "HTML"
+      - "JSON serialisation"
+      - "manpages / manual pages"
+      - "PDF"
+      - "Plain text"
+      - "Texinfo"
+      - "XML"
 
   - title:
       "Please rank the issues you face when working with Sphinx from 1 (most
@@ -231,11 +242,11 @@ questions:
       should resources be allocated."
     type: ranking
     choices:
-      - "reStructuredText syntax is too complicated"
-      - "Sphinx is missing features I want"
-      - "Performance issues"
-      - "Sphinx breaks too often"
       - "No native support for Markdown"
+      - "Performance issues"
+      - "reStructuredText syntax is too complicated"
+      - "Sphinx breaks too often"
+      - "Sphinx is missing features I want"
 
   - title: "Are there any other issues you face when working with Sphinx?"
     type: long_text
