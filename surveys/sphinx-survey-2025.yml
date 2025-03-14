@@ -32,6 +32,19 @@ questions:
       - "I maintain a Sphinx theme"
       - "I contribute to Sphinx"
 
+  - title: "Which of the following roles is closest to your job?"
+  other: true
+  choices:
+    - "Academic researcher"
+    - "Data scientist"
+    - "Developer / Programmer"
+    - "ML engineer / MLOps"
+    - "Product manager"
+    - "QA engineer"
+    - "Technical support"
+    - "Technical writer"
+    - "Prefer not to answer"
+
   - title: "Do you most often work on a team or independently?"
     other: true
     choices:
@@ -112,6 +125,7 @@ questions:
       - "Vercel" 
       - "Vultr"
       - "We have our own deployment"
+      - "As a part of an existing website"
       - "I don't know"
 
   - title: "What markup language are you using in your documentation?"
