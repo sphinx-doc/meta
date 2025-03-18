@@ -1,5 +1,11 @@
 # Copyright (c) 2025, Quansight Inc.
 
+# Objective: Gain basic insight about about Sphinx in the wild; who is using it, for what, with what, and with what priorities?
+# The goal is to augment discussions on features and issues with feedback that can be followed up on. The survey will not provide prescriptive solutions.
+
+# Target audience: People who interact with documentation, especially those who contribute to or extend documentation. Use of Sphinx is encouraged but not required.
+
+
 title: "Sphinx Survey 2025"
 questions:
   - title: "Sphinx Usage Survey 2025"
@@ -31,6 +37,7 @@ questions:
       - "I build extensions for Sphinx"
       - "I maintain a Sphinx theme"
       - "I contribute to Sphinx"
+      - "None of the above"
 
   - title: "Which of the following roles is closest to your job?"
   other: true
