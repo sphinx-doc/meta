@@ -28,9 +28,10 @@ questions:
     Results will be public with identifying information removed. Open text
     field questions may be quoted, but will not be shown in full.
 
-    This survey is run by the Sphinx community; survey data will be deleted
-    from any private accounts once made public. If you have any questions,
-    reach out to [Contact to be determined].
+    This survey is run by the Sphinx community and Quansight Labs; survey 
+    data will be deleted from any private accounts once made public. If you 
+    have any questions, reach out to tallard@quansight.com and mention 
+    Sphinx Survey 2025 in the subject line.
 
 - title: "Tell us about you"
   description: >-
@@ -331,10 +332,11 @@ questions:
 - title: "If there are any features you wish Sphinx had, what would they be?"
   type: long_text
 
-- title: "Thanks for your participation"
+- title: "Thank you for participating"
   ref: the_end
   type: statement
   description: >-
-    Add contact detail again, and maybe link to an open issue people can
-    subscribe on github for when the results will be available.
-    Likely on the typeform repository.
+    Survey data will be publicly available once anonymized. For updates, 
+    follow https://github.com/orgs/sphinx-doc/discussions/13331.
+    If you have any questions, reach out to tallard@quansight.com and 
+    mention Sphinx Survey 2025 in the subject line.
