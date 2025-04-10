@@ -174,10 +174,10 @@ questions:
   multiple: true
   other: true
   choices:
-  - "Google format (indented sections)"
+  - "Google format (my_param (type): description)"
+  - "Numpydoc format (my_param : type \n description indented on new line)"
+  - "Sphinx format (:param [my_param]: description)"
   - "Markdown"
-  - "Numpydoc format (underlined sections)"
-  - "Sphinx format (reStructuredText)"
   - "I don’t know"
 
 # Motivation: Reflect on priorities for documentation in general. 
@@ -268,7 +268,7 @@ questions:
   - "Sphinx Book"
   - "Sphinx Bootstrap"
   - "Sphinx Immaterial"
-  - "Something else/I don’t know"
+  - "I don’t know"
 
 # Motivation: Explore patterns in Sphinx output priorities. This might be useful for contextualizing other answers.
 - title: "In which formats do you publish your documentation with sphinx?"
@@ -297,7 +297,9 @@ questions:
   - "No native support for Markdown"
   - "Performance issues"
   - "reStructuredText syntax is too complicated"
-  - "Sphinx breaks too often"
+  - "usability issues, e.g. unclear error messages"
+  - "Insufficient documentation"
+  - "Sphinx breaks too often on new releases"
   - "Sphinx is missing features I want"
 
 # Motivation: Explore patterns in what people using Sphinx struggle with.
