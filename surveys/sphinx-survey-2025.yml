@@ -208,7 +208,7 @@ questions:
   - "Sphinx format"
   - "Markdown"
   - "I don’t know"
-  - "N/A"
+  - "I do not write docstrings"
 
 # Motivation: Reflect on priorities for documentation in general.
 - title: >-
