@@ -122,7 +122,9 @@ questions:
   - "Educator"
   - "Extension developer/maintainer"
   - "Technical writer"
+  - "Technical editor"
   - "Testing engineer"
+  - "Theme developer/maintainer"
 
 # Motivation: Understand the constellation of tools for documentation this responder works with.
 - title: "What documentation tools/engines do you currently use?"
@@ -282,10 +284,11 @@ questions:
   - "API documentation generation from Python docstrings"
   - "Being able to cross-reference other pages/sections across one or multiple
     sites ('intersphinx')"
-  - "Add functionality through extensions"
+  - "The theme and extension APIs and ecosystem"
   - "Other projects in my ecosystem were using Sphinx"
   - "Someone on my team knew how to use Sphinx"
   - "I joined a project that was already using Sphinx"
+  - "It's open source / permissively licenced"
   - "Sphinx’s ease of use"
   - "Sphinx’s performance"
   - "Sphinx’s stability"
