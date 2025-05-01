@@ -1,5 +1,3 @@
-# Copyright (c) 2025, Quansight Inc.
-
 # Survey Objective
 # ================
 #
@@ -14,9 +12,9 @@
 # People who interact with documentation, especially those who contribute to
 # or extend documentation. Use of Sphinx is encouraged but not required.
 
-title: "Sphinx Documentation Survey (2025)"
+title: "State of Sphinx (2025)"
 questions:
-- title: "Sphinx Documentation Survey (2025)"
+- title: "Sphinx Usage Survey (2025)"
   type: statement
   description: >-
     We’re running this survey to understand requirements for documentation
@@ -77,6 +75,25 @@ questions:
 # Motivation: Understand the responder's self-reported background and skills.
 - title: "How many years of professional experience do you have?"
   type: number
+
+# Motivation: Understand the responder's self-reported background and skills.
+- title: "Which ecosystem(s) do you feel most aligned with?"
+  multiple: true
+  other: true
+  choices:
+  - "Academia"
+  - "Analytics / Visualisation"
+  - "Data Science"
+  - "Embedded / Hardware"
+  - "Enterprise"
+  - "Game Development"
+  - "Infrastructure / DevOps"
+  - "Machine Learning"
+  - "Mobile Development"
+  - "Multimedia / Creative"
+  - "Scientific Python"
+  - "Web"
+  - "Prefer not to answer"
 
 # Motivation: Understand the responder's self-reported background and skills.
 - title: "For how many years have you been using documentation tools?"
@@ -223,7 +240,7 @@ questions:
   - "Variety of features"
 
 # Motivation: Reflect on priorities for documentation in general.
-- title: "Why did you choose the tool/engine you use for your documentation?"
+- title: "Why did you choose the tool you use for your documentation?"
   multiple: true
   other: true
   choices:
