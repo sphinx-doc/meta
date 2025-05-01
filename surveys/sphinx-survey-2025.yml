@@ -52,7 +52,7 @@ questions:
   choices:
   - "Academic researcher"
   - "Data scientist"
-  - "Developer / Programmer"
+  - "Software Developer / Programmer / Engineer"
   - "Manager"
   - "ML engineer / MLOps"
   - "Product manager"
