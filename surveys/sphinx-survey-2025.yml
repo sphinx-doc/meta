@@ -127,26 +127,49 @@ questions:
   - "Theme developer/maintainer"
 
 # Motivation: Understand the constellation of tools for documentation this responder works with.
-- title: "What documentation tools/engines do you currently use?"
+- title: "What documentation authoring software do you currently use?"
   multiple: true
   other: true
   choices:
+  - "Antora"
+  - "AsciiDoc"
   - "Astro"
   - "Confluence"
+  - "docfx"
+  - "docsify"
+  - "docz"
+  - "Doctave"
   - "Docusaurus"
   - "Eleventy"
+  - "GitBook"
   - "Hugo"
   - "JupyterBook"
-  - "JSDoc"
+  - "Jekyll"
+  - "mdBook"
+  - "Mintlify"
   - "MkDocs"
-  - "MyST"
   - "Nikola"
+  - "readme.com"
   - "Pelican"
-  - "Redocly"
-  - "Rustdoc"
   - "Sphinx"
-  - "None"
+  - "Starlight"
+  - "VitePress"
+  - "Zola"
   - "I don’t know"
+
+- title: "What API reference auto-generation tools do you use?"
+  multiple: true
+  other: true
+  choices:
+  - "autodoc (Sphinx)"
+  - "Doxygen"
+  - "GoDoc"
+  - "JavaDoc"
+  - "JSDoc"
+  - "OpenAPI"
+  - "rustdoc"
+  - "TypeDoc"
+  - "None"
 
 # Motivation: Explore patterns in output priorities. This might be useful for contextualising other answers.
 - title: "In which formats do you publish your documentation?"
