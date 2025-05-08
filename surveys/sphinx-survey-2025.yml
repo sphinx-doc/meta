@@ -53,23 +53,11 @@ questions:
   - "Academic researcher"
   - "Data scientist"
   - "Manager"
-  - "ML engineer / MLOps"
   - "Product manager"
-  - "QA engineer"
   - "Software Developer / Programmer / Engineer"
   - "Student (in full-time education)"
   - "Technical support"
   - "Technical writer"
-  - "Prefer not to answer"
-
-# Motivation: Understand the responder's self-reported background and skills.
-- title: "Do you most often work in a team or independently?"
-  other: true
-  choices:
-  - "I most often work on projects independently"
-  - "I most often work on projects as part of a team"
-  - "I spend about equal time working on projects independently as I do on a
-    team"
   - "Prefer not to answer"
 
 # Motivation: Understand the responder's self-reported background and skills.
@@ -82,14 +70,12 @@ questions:
   other: true
   choices:
   - "Academia"
-  - "Analytics / Visualisation"
-  - "Data Science"
+  - "Data Science / Analytics / Visualisation"
   - "Embedded / Hardware"
   - "Enterprise"
   - "Game Development"
   - "Infrastructure / DevOps"
   - "Machine Learning"
-  - "Mobile Development"
   - "Multimedia / Creative"
   - "Scientific Python"
   - "Web"
@@ -218,51 +204,6 @@ questions:
   - "XML/DITA"
   - "I don’t know"
 
-# Motivation: Understand the constellation of tools for documentation this responder works with.
-- title: "Which Python docstring style do you use?"
-  description: >-
-    Select N/A if you don’t use Python or Python docstrings.
-
-    Google-style docstrings look like:
-    ```rst
-    Arguments:
-        my_param (type): description
-    ```
-
-    Numpydoc-style docstrings look like:
-    ```rst
-    Arguments
-    ---------
-    my_param : type
-        description
-    ```
-
-    Sphinx-style docstrings look like:
-    ```rst
-    :param [my_param]: description
-    ```
-  multiple: true
-  other: true
-  choices:
-  - "Google format"
-  - "Numpydoc format"
-  - "Sphinx format"
-  - "Markdown"
-  - "I don’t know"
-  - "I do not write docstrings"
-
-# Motivation: Reflect on priorities for documentation in general.
-- title: >-
-    Which of the following is most important to you in a documentation site?
-  multiple: true
-  other: true
-  choices:
-  - "Ease of use"
-  - "Frequent updates"
-  - "Performance"
-  - "Stability"
-  - "Variety of features"
-
 # Motivation: Reflect on priorities for documentation in general.
 - title: "Why did you choose the tool you use for your documentation?"
   multiple: true
@@ -311,13 +252,10 @@ questions:
   - "I joined a project that was already using Sphinx"
   - "It has native support for documenting multiple languages"
   - "It's open source / permissively licenced"
-  - "Other projects in my ecosystem were using Sphinx"
-  - "Someone on my team knew how to use Sphinx"
+  - "Other projects or team members in my ecosystem were using Sphinx"
   - "Sphinx's community and support"
   - "Sphinx’s ease of use"
   - "Sphinx’s performance"
-  - "Sphinx’s release schedule"
-  - "Sphinx’s stability"
   - "Support for advanced document markup features"
   - "The internationalisation and translation support"
   - "The theme and extension APIs and ecosystem"
