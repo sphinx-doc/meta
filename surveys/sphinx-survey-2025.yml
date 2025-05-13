@@ -61,6 +61,16 @@ questions:
   - "Prefer not to answer"
 
 # Motivation: Understand the responder's self-reported background and skills.
+- title: "Do you most often work in a team or independently?"
+  other: true
+  choices:
+  - "I most often work on projects independently"
+  - "I most often work on projects as part of a team"
+  - "I spend about equal time working on projects independently as I do on a
+    team"
+  - "Prefer not to answer"
+
+# Motivation: Understand the responder's self-reported background and skills.
 - title: "How many years of professional experience do you have?"
   type: number
 
@@ -70,9 +80,9 @@ questions:
   other: true
   choices:
   - "Academia"
-  - "Data Science / Analytics / Visualisation"
+  - "Data Science / Analytics
+  - "Data Visualisation"
   - "Embedded / Hardware"
-  - "Enterprise"
   - "Game Development"
   - "Infrastructure / DevOps"
   - "Machine Learning"
@@ -203,6 +213,28 @@ questions:
   - "TeX"
   - "XML/DITA"
   - "I don’t know"
+
+# Motivation: Understand the constellation of tools for documentation this responder works with.
+  - title: "Which Python docstring style do you use?"
+  multiple: true
+  other: true
+  choices:
+  - "Google format"
+  - "Numpydoc format"
+  - "I don’t know"
+  - "I do not write docstrings"
+
+# Motivation: Reflect on priorities for documentation in general.
+- title: >-
+    Which of the following is most important to you in a documentation site?
+  multiple: true
+  other: true
+  choices:
+  - "Ease of use"
+  - "Frequent updates"
+  - "Performance"
+  - "Stability"
+  - "Variety of features"
 
 # Motivation: Reflect on priorities for documentation in general.
 - title: "Why did you choose the tool you use for your documentation?"
