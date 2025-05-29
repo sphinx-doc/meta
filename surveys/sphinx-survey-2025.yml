@@ -79,7 +79,7 @@ questions:
   multiple: true
   other: true
   choices:
-  - "Academia"
+  - "Research / Research Software / Academia"
   - "Data Science / Analytics
   - "Data Visualisation"
   - "Embedded / Hardware"
