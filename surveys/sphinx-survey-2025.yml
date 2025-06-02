@@ -79,8 +79,8 @@ questions:
   multiple: true
   other: true
   choices:
-  - "Research / Research Software / Academia"
-  - "Data Science / Analytics
+  - "Academia / Research / Research Software"
+  - "Data Science / Analytics"
   - "Data Visualisation"
   - "Embedded / Hardware"
   - "Game Development"
@@ -215,12 +215,14 @@ questions:
   - "I don’t know"
 
 # Motivation: Understand the constellation of tools for documentation this responder works with.
-  - title: "Which Python docstring style do you use?"
+- title: "Which Python docstring style do you use?"
   multiple: true
   other: true
   choices:
   - "Google format"
   - "Numpydoc format"
+  - "Sphinx format"
+  - "Markdown"
   - "I don’t know"
   - "I do not write docstrings"
 
@@ -283,11 +285,11 @@ questions:
   - "Creating non-HTML output formats"
   - "I joined a project that was already using Sphinx"
   - "It has native support for documenting multiple languages"
-  - "It's open source / permissively licenced"
-  - "Other projects or team members in my ecosystem were using Sphinx"
-  - "Sphinx's community and support"
+  - "It’s open source / permissively licenced"
+  - "Other projects or team members were using Sphinx"
+  - "Sphinx’s community and support"
   - "Sphinx’s ease of use"
-  - "Sphinx’s performance"
+  - "Sphinx’s Good performance"
   - "Support for advanced document markup features"
   - "The internationalisation and translation support"
   - "The theme and extension APIs and ecosystem"
