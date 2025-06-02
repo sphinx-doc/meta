@@ -305,7 +305,6 @@ questions:
   - "Whatever comes with Sphinx by default"
   - "Alabaster"
   - "Furo"
-  - "Material for Sphinx"
   - "PyData"
   - "Python Docs"
   - "Read The Docs"
